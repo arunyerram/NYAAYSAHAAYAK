@@ -178,7 +178,11 @@
 .w-full {
   width: 100%;
 }
-
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
   .flex {
     display: flex;
   }
