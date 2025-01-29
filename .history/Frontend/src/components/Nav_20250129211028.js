@@ -5,7 +5,7 @@ const MyNav = () => {
         <>
         <div>
          <header>
-            <h1 className="pad">NYAAYSAHAAYAK</h1>
+            <h1 className="pad">NYAAY SAHAAYAK</h1>
         </header>
             <nav className="navbar navbar-expand-sm navbar" style={{backgroundColor: 'grey'}}>
 
@@ -60,7 +60,7 @@ const MyNav = () => {
             </ul>
                 </div>
 
-                <button id="Log"> <Link to="/login"> Logout</Link></button>
+                <button id="Log"> <Link to=""> Logout</Link></button>
 
             </nav>
         </div>

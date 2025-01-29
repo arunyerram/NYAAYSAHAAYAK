@@ -46,7 +46,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
     <div className="row">
     <div className="col-md-8 col-sm-6 col-12">
     <p className="copyright-text">Copyright © 2024 All Rights Reserved by
-    <a href="/NYAAYSAHAAYAK"><span className="logo">NYAAYSAHAAYAK</span></a>
+    <a href="/NYAA"><span className="logo">NYAAYSAHAAYAK</span></a>
     </p>
     </div>
 

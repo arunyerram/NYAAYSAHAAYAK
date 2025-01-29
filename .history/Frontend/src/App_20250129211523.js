@@ -132,7 +132,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Service />} />
         <Route path="/chatbot" element={<MyChatbot />} />
-        <Route path='/contact' element={ <Contact/>}/>
+        <Route path='/contact' element={ <Contact/>}/>import 
         <Route path="/KeyFeatures/LawTypes" element={<LawTypes />} />
         <Route path="/constitution" element={<Constitution />} />
         <Route path="/civil" element={<Civil />} />

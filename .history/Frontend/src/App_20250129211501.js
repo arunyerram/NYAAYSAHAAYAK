@@ -121,7 +121,7 @@ import LegalAdvice from './components/KeyFeatures/LegalAdvice.js';
 import Appointment from './components/KeyFeatures/Appointment.js';
 import Session from './components/KeyFeatures/Session.js';
 import Details from './components/KeyFeatures/Details.js';
-import Contact from './components/Contact.js' 
+
 function App() {
   return (
     <BrowserRouter basename="/NYAAYSAHAAYAK">

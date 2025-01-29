@@ -121,7 +121,7 @@ import LegalAdvice from './components/KeyFeatures/LegalAdvice.js';
 import Appointment from './components/KeyFeatures/Appointment.js';
 import Session from './components/KeyFeatures/Session.js';
 import Details from './components/KeyFeatures/Details.js';
-import Contact from './components/Contact.js' 
+
 function App() {
   return (
     <BrowserRouter basename="/NYAAYSAHAAYAK">
@@ -132,7 +132,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Service />} />
         <Route path="/chatbot" element={<MyChatbot />} />
-        <Route path='/contact' element={ <Contact/>}/>
         <Route path="/KeyFeatures/LawTypes" element={<LawTypes />} />
         <Route path="/constitution" element={<Constitution />} />
         <Route path="/civil" element={<Civil />} />

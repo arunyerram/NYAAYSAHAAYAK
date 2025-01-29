@@ -11,7 +11,7 @@ const rightsData = [
     description: 'Citizens have the right to freedom of speech, expression, assembly, association, movement, and religion.'
   },
   {
-    title: 'Right Against Exploitation', 
+    title: 'Right Against Exploitation',
     description: 'Prohibits exploitation, forced labor, trafficking, and other forms of abuse.'
   },
   {

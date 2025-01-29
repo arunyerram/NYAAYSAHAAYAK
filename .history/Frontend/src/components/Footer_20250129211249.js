@@ -20,7 +20,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
     <ul className="footer-links ">
     <Link to="./KeyFeatures/LawTypes">Lawtypes</Link><br/>
     <Link to="./chatbot">Legal Assistant</Link><br/>
-    <Link to="./KnowYourRights" >Know Your Rights</Link><br/>
+    <Link to="/KnowYourRights" >Know Your Rights</Link><br/>
 
     </ul>
     </div>

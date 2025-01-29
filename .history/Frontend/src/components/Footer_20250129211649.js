@@ -6,27 +6,27 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
         return ( 
             <>
 
-    <footer class="site-footer">
-    <div class="container">
-    <div class="row">
-    <div class="col-sm-12 col-md-6">
-    <h6 class="text-justify" >About</h6>
-    <p class="text-justify">At Legal Assistant Services, we are committed to providing expert legal assistance to meet your needs. Our team of experienced professionals is dedicated to delivering high-quality services and ensuring client satisfaction.
+    <footer className="site-footer">
+    <div className="container">
+    <div className="row">
+    <div className="col-sm-12 col-md-6">
+    <h6 className="text-justify" >About</h6>
+    <p className="text-justify">At Legal Assistant Services, we are committed to providing expert legal assistance to meet your needs. Our team of experienced professionals is dedicated to delivering high-quality services and ensuring client satisfaction.
 
     With a focus on legal consultation, document drafting, contract review, and legal research, we strive to assist individuals and businesses in navigating the complexities of the legal landscape.</p>
     </div>
-    <div class="col-6 col-md-3">
+    <div className="col-6 col-md-3">
     <h6>Categories</h6>
-    <ul class="footer-links ">
+    <ul className="footer-links ">
     <Link to="./KeyFeatures/LawTypes">Lawtypes</Link><br/>
     <Link to="./chatbot">Legal Assistant</Link><br/>
-    <Link to="./KnowYourRights" >Know Your Rights</Link><br/>
+    <Link to="/rights" >Know Your Rights</Link><br/>
 
     </ul>
     </div>
-    <div class="col-6 col-md-3">
+    <div className="col-6 col-md-3">
     <h6>Quick Links</h6>
-        <ul class="footer-links">
+        <ul className="footer-links">
             <Link to="./about">About Us</Link><br/>
         
             <Link to="./services">Services</Link><br/>
@@ -40,20 +40,20 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
     </ul>
     </div>
     </div>
-    <hr class="small"></hr>
+    <hr className="small"></hr>
     </div>
-    <div class="container">
-    <div class="row">
-    <div class="col-md-8 col-sm-6 col-12">
-    <p class="copyright-text">Copyright © 2024 All Rights Reserved by
-    <a href="/"><span class="logo">NYAAYSAHAAYAK</span></a>
+    <div className="container">
+    <div className="row">
+    <div className="col-md-8 col-sm-6 col-12">
+    <p className="copyright-text">Copyright © 2024 All Rights Reserved by
+    <a href="/NYAAYSAHAAYAK"><span className="logo">NYAAYSAHAAYAK</span></a>
     </p>
     </div>
 
     
 
-<div className="col-md-4 col-sm-6 col-12">
-        <div className="social-links">
+<div classNameName="col-md-4 col-sm-6 col-12">
+        <div classNameName="social-links">
             <a
             href="https://www.facebook.com/?stype=lo&deoia=1&jlou=AffHAtNHL3sUUL0bifbeiBsnOdpfKkvc0Lp7omzUGYqnA1xyNtQ8Vhn1VSTEb9eqj_uu9nZnY28qc__EMm1ZUVy2DhDevrohCKt9_c4issybXQ&smuh=6241&lh=Ac_mZJlNgm8HXGecJ0E"
             target="_blank"
@@ -71,7 +71,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
             <FaInstagram size={25} style={{ color: "red" }} />
             </a>
         </div>
-        <div className="social-links">
+        <div classNameName="social-links">
             <a
             href="https://www.linkedin.com/home"
             target="_blank"
