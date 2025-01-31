@@ -1,0 +1,13 @@
+.chatWindow {
+    background-color: rgb(1, 5, 6);
+    padding: 20px;
+    border: 100px solid hsl(0, 83%, 45%);
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    overflow-y: relative;
+}
+
+
+
+
