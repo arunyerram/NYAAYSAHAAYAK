@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NYAAYSAHAAYAK/static/css/main.f38a5439.css",
+    "main.js": "/NYAAYSAHAAYAK/static/js/main.f1405af3.js",
+    "index.html": "/NYAAYSAHAAYAK/index.html",
+    "main.f38a5439.css.map": "/NYAAYSAHAAYAK/static/css/main.f38a5439.css.map",
+    "main.f1405af3.js.map": "/NYAAYSAHAAYAK/static/js/main.f1405af3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f38a5439.css",
+    "static/js/main.f1405af3.js"
+  ]
+}
