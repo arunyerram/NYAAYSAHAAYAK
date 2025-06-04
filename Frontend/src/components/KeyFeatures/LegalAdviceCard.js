@@ -1,7 +1,7 @@
 // LegalAdviceCard.js
 
 import React from 'react';
-import './LegalAdviceCard.css';
+import './css/LegalAdviceCard.css';
 
 const LegalAdviceCard = ({ title, content, date }) => {
   return (

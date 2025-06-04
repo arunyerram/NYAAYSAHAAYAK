@@ -1,4 +1,4 @@
-import "./SpeechToText.css"
+import "./css/SpeechToText.css"
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import useClipboard from "react-use-clipboard";
 import {useState} from "react";

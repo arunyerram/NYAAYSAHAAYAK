@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import './Appointment.css';
+import './css/Appointment.css';
 import { useNavigate } from "react-router-dom";
 const LoginPopup = ({ onClose }) => {
   // const navigate = useNavigate();

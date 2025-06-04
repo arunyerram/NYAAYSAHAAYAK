@@ -1,26 +1,25 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav';
-import Law from './components/Law';
-import About from './components/About';
-// import Appointment from './components/KeyFeatures/Appointment';
-import Service from './components/Service';
+import Nav from './components/Nav.js';
+import Law from './components/Law.js';
+import About from './components/About.js';
+import Service from './components/Service.js';
 import MyChatbot from './components/chatbot/Chat1.js';
-import Constitution from './components/TypesofLaws/Constitution';
-import Civil from './components/TypesofLaws/Civil';
-import Corporate from './components/TypesofLaws/Corporate';
-import Criminal from './components/TypesofLaws/Criminal';
-import Cyber from './components/TypesofLaws/Cyber';
-import Environmental from './components/TypesofLaws/Environmental';
-import Family from './components/TypesofLaws/Family';
-import Feedback from './components/Feedback';
-import Intellectual from './components/TypesofLaws/Intellectual';
-import Labor from './components/TypesofLaws/Labor';
-import Property from './components/TypesofLaws/Property';
-import Tax from './components/TypesofLaws/Tax';
+import Constitution from './components/TypesofLaws/Constitution.js';
+import Civil from './components/TypesofLaws/Civil.js';
+import Corporate from './components/TypesofLaws/Corporate.js';
+import Criminal from './components/TypesofLaws/Criminal.js';
+import Cyber from './components/TypesofLaws/Cyber.js';
+import Environmental from './components/TypesofLaws/Environmental.js';
+import Family from './components/TypesofLaws/Family.js';
+import Feedback from './components/Feedback.js';
+import Intellectual from './components/TypesofLaws/Intellectual.js';
+import Labor from './components/TypesofLaws/Labor.js';
+import Property from './components/TypesofLaws/Property.js';
+import Tax from './components/TypesofLaws/Tax.js';
 import LawTypes from './components/KeyFeatures/LawTypes.js';
-import FAQ from './components/FAQs/FAQ';
+import FAQ from './components/FAQs/FAQ.js';
 import Login from './components/Login.jsx';
 import Signup from './components/signup.jsx';
 import KnowYourRights from './components/KeyFeatures/KnowYourRights.js';
@@ -31,7 +30,7 @@ import Details from './components/KeyFeatures/Details.js';
 import Contact from './components/Contact.js' 
 function App() {
   return (
-    <BrowserRouter basename="/NYAAYSAHAAYAK">
+    <BrowserRouter>
       <Nav />
       <Routes>
         <Route path="/" element={<Law />} />
@@ -66,6 +65,5 @@ function App() {
     </BrowserRouter>
   );
 }
-
 
 export default App;

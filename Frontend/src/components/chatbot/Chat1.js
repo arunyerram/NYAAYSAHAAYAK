@@ -2,7 +2,7 @@ import React from 'react';
 import 'react-chatbot-kit/build/main.css';
 import Apps from './Apps.jsx';
 // import TextToSpeech from "./TextToSpeech.jsx"
-import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
+// import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 // import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 // import useClipboard from "react-use-clipboard";
 // import {useState} from "react";

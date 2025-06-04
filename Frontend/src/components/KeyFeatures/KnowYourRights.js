@@ -1,5 +1,5 @@
 import React from 'react';
-import './KnowYourRights.css';
+import './css/KnowYourRights.css';
 import { useNavigate } from "react-router-dom";
 const rightsData = [
   {

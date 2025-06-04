@@ -1,11 +1,11 @@
-import React, { useState, useEffect,useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from "@chatscope/chat-ui-kit-react";
 import { FaMicrophone } from 'react-icons/fa';
 import { useSpeechSynthesis } from 'react-speech-kit';
-import './App.css';
+import './css/App.css';
 import { useNavigate } from "react-router-dom";
-const API_KEY = "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";  // Replace with your actual API key
+const API_KEY =  "";  // Replace with your actual API key
 
 const systemMessage = {
   "role": "system",
@@ -15,7 +15,7 @@ const systemMessage = {
 function Chatbot() {
   const [messages, setMessages] = useState([
     {
-      message: "Hello, I am SAHAAYAK! Ask me about your career queries.",
+      message: "Hello, I am SAHAAYAK! Ask me about your Legal queries.",
       sentTime: "just now",
       sender: "LEGALASSISTANT"
     }
@@ -33,7 +33,7 @@ function Chatbot() {
     } else {
       stopListening();
     }
-  }, [isListening]);
+  },);
 
   const handleSend = async (message) => {
     const newMessage = {

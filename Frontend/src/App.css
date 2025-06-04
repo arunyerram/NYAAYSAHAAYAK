@@ -93,7 +93,7 @@ p {
   line-height: 1.6;
 }
 
-/* Optional: Add hover effect */
+
 .faq__content:hover {
   background-color: #85d1e2;
   transition: background-color 0.3s ease;

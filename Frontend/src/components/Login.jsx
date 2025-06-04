@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router';
 import styles from './styles.module.css';
 
 const Login = () => {
-  const [pole,setpole]=useState(true);
+  const [pole,setpole] = useState(true);
   const navigate = useNavigate();
   const [isError, setIsError] = useState(false);
 
