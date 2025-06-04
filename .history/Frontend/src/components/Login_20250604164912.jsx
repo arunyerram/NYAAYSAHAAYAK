@@ -21,7 +21,7 @@ const Login = () => {
     e.preventDefault();
 
     axios
-      .post('https://nyaaysahaayakbackend.onrender.com/login', data1)
+      .post('/login', data1)
       .then((res) => {
         console.log(res.data);
         // Check the response from the server and navigate accordingly

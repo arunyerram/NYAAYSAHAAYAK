@@ -24,7 +24,7 @@ const Session = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://nyaaysahaayakbackend.onrender.com/submit-appointment', {
+      const response = await fetch('/submit-appointment', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
