@@ -36,6 +36,7 @@
   "scripts": {
     "start": "react-scripts start",
     "preinstall": "echo legacy-peer-deps=true > .npmrc",
+
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
