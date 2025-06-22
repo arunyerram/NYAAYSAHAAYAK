@@ -12,9 +12,22 @@ const Law = () => {
     const navigate = useNavigate();
     return ( 
         <>
+        {/* <Chatbot
+        config={Config}
+        messageParser={MessageParser}
+        actionProvider={ActionProvider}
+        /> */}
+        {/* <Nav/> */}
+        {/* <MyCarousel/> */}
+          {/* <chatbot/> */}
         <MySearch/>
-        <MyCarousel/>
+         <MyCarousel/>
+         {/* <Footer/> */}
+
+        
+
     <main>
+
         <section className= "container1">
             {/* <h2 className="text-center" style={{marginBottom:"20px"}}>Key Features</h2> */}
             <div className="row"> 

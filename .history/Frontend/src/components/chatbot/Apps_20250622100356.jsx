@@ -71,7 +71,7 @@ function Apps() {
   useEffect(() => {
     if (isListening) startListening();
     else stopListening();
-  });
+  }, [isListening]);
 
   const handleSend = async (text) => {
     const outgoing = { message: text, direction: "outgoing", sender: "user" };
