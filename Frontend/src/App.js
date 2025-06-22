@@ -5,7 +5,7 @@ import Nav from './components/Nav.js';
 import Law from './components/Law.js';
 import About from './components/About.js';
 import Service from './components/Service.js';
-import MyChatbot from './components/chatbot/Chat1.js';
+import MyChatbot from './components/chatbot/MyChatbot.js';
 import Constitution from './components/TypesofLaws/Constitution.js';
 import Civil from './components/TypesofLaws/Civil.js';
 import Corporate from './components/TypesofLaws/Corporate.js';

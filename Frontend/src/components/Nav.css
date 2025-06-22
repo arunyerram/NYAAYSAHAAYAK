@@ -1,0 +1,50 @@
+
+/* Base navbar styling */
+.navbar-custom {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.5rem 0;
+}
+
+/* Brand */
+.navbar-custom .navbar-brand {
+  color: #2c3e50;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* Toggler icon (blue bars) */
+.navbar-custom .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%23007bff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Links */
+.navbar-custom .nav-link {
+  color: #2c3e50;
+  margin: 0 0.5rem;
+  transition: color 0.2s;
+}
+.navbar-custom .nav-link:hover {
+  color: #007bff;
+}
+
+/* Login/Logout button */
+.btn-action {
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+/* Mobile styling */
+@media (max-width: 991.98px) {
+  .navbar-custom .navbar-nav {
+    text-align: center;
+  }
+  .btn-action {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
