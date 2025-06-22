@@ -22,7 +22,7 @@ const Feedback = () => {
     setError("");
 
     try {
-        const response = await fetch("https://nyaaysahaayakbackend.onrender.com/submit-feedback", {
+        const response = await fetch("https://nyaaysahaayakbackend-1.onrender.com/submit-feedback", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(formData),

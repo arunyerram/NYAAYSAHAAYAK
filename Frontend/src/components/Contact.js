@@ -26,7 +26,7 @@ const Contact = () => {
     setError("");
 
     try {
-      const response = await fetch("https://nyaaysahaayakbackend.onrender.com/submit-contact-us", {
+      const response = await fetch("https://nyaaysahaayakbackend-1.onrender.com/submit-contact-us", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

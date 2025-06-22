@@ -16,7 +16,7 @@ const Signup = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post('https://nyaaysahaayakbackend.onrender.com/signup', data);
+      const res = await axios.post('https://nyaaysahaayakbackend-1.onrender.com/signup', data);
 
       if (res.data.success) {
         sessionStorage.setItem("userId", res.data.userId);
