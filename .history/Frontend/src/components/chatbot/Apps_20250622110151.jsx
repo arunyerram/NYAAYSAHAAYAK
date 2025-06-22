@@ -15,7 +15,7 @@ import { useSpeechSynthesis } from 'react-speech-kit';
 import { useNavigate } from "react-router-dom";
 import './css/App.css';
 
-const API_KEY = "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";
+const API_KEY = proc;
 
 const systemMessage = {
   role: "system",

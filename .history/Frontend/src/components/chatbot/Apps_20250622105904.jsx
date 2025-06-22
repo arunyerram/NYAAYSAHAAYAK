@@ -15,7 +15,7 @@ import { useSpeechSynthesis } from 'react-speech-kit';
 import { useNavigate } from "react-router-dom";
 import './css/App.css';
 
-const API_KEY = "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";
+// const API_KEY = "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";
 
 const systemMessage = {
   role: "system",
@@ -98,7 +98,7 @@ function Apps() {
       const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         method: "POST",
         headers: {
-          Authorization: "Bearer " + API_KEY,
+          Authorization: "Bearer " + process.env.REACT_APP_GROQ_API_KEY,
           "Content-Type": "application/json"
         },
         body: JSON.stringify(body)
